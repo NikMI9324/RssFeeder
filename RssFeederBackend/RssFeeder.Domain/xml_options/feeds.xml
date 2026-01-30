@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feeds>
+	<RefreshTimeInSeconds>300</RefreshTimeInSeconds>
+	<Feed>
+		<Id>1</Id>
+		<Link>https://habr.com/rss/interesting/</Link>
+		<Name>Habr</Name>
+		<Enabled>true</Enabled>
+	</Feed>
+</Feeds>
+
