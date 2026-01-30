@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RssFeeder.Domain\RssFeeder.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

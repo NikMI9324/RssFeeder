@@ -6,6 +6,9 @@ namespace RssFeeder.Domain.Entities
 {
     public class Feed
     {
-        public 
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public bool Enabled { get; set; }
+        public string Link {  get; set; }
     }
 }
