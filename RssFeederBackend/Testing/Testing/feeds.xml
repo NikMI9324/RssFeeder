@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feeds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RefreshTimeInSeconds>300</RefreshTimeInSeconds>
+  <Feed>
+    <Name>Habr</Name>
+    <Link> https://habr.com/rss/interesting/ </Link>
+    <Enabled>true</Enabled>
+  </Feed>
+  <Feed>
+    <Name>Example</Name>
+    <Link>http://example.com/rss</Link>
+    <Enabled>false</Enabled>
+  </Feed>
+</Feeds>

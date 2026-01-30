@@ -1,0 +1,42 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.vs/
+
+## Результаты сборки
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+
+## Конфигурационные файлы (секреты)
+appsettings.*.json
+appsettings.Development.json
+*.env
+secrets.json
+
+## Базы данных
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+## Логи
+*.log
+logs/
+
+## Пакеты NuGet
+packages/
+*.nupkg
+
+## Кэш и временные файлы
+*.tmp
+*.temp
+*.cache
+
+## Тестовые результаты
+TestResults/

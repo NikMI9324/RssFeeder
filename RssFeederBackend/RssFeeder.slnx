@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="RssFeeder.Api/RssFeeder.Api.csproj" />
+  <Project Path="RssFeeder.Application/RssFeeder.Application.csproj" />
+  <Project Path="RssFeeder.Domain/RssFeeder.Domain.csproj" />
+  <Project Path="RssFeeder.Infrastructure/RssFeeder.Infrastructure.csproj" />
+</Solution>
