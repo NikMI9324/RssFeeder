@@ -72,8 +72,7 @@ namespace RssFeeder.Application.Services
             if (feed == null)
                 throw new InvalidOperationException($"Feed '{feedName}' не найден");
 
-            var container = await _feedRepository.GetFeedsAsync();
-            var refreshSeconds = Math.Max(30, container?.RefreshTimeInSeconds ?? 300);
+            var refreshSeconds = Math.Max(30, await _feedRepository.GetRefreshTimeAsync());
 
             var client = _httpClientFactory.CreateClient();
             string content;

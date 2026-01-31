@@ -16,5 +16,6 @@ namespace RssFeeder.Domain.Interfaces
         public Task DeleteFeedByIdAsync(int id);
         public Task UpdateFeedAsync(Feed feed, string name);
         public Task UpdateRefreshTimeAsync(int refreshTime);
+        public Task<int> GetRefreshTimeAsync();
     }
 }

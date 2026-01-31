@@ -1,11 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Feeds>
-	<RefreshTimeInSeconds>300</RefreshTimeInSeconds>
-	<Feed>
-		<Id>1</Id>
-		<Link>https://habr.com/rss/interesting/</Link>
-		<Name>Habr</Name>
-		<Enabled>true</Enabled>
-	</Feed>
+<?xml version="1.0" encoding="utf-8"?>
+<Feeds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RefreshTimeInSeconds>300</RefreshTimeInSeconds>
+  <Feed>
+    <Id>1</Id>
+    <Name>Habr</Name>
+    <Enabled>true</Enabled>
+    <Link>https://habr.com/rss/interesting/</Link>
+  </Feed>
+  <Feed>
+    <Id>2</Id>
+    <Name>DotnetBlog</Name>
+    <Enabled>true</Enabled>
+    <Link>https://devblogs.microsoft.com/dotnet/feed/</Link>
+  </Feed>
 </Feeds>
-
