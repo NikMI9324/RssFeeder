@@ -3,4 +3,5 @@
   <Project Path="RssFeeder.Application/RssFeeder.Application.csproj" />
   <Project Path="RssFeeder.Domain/RssFeeder.Domain.csproj" />
   <Project Path="RssFeeder.Infrastructure/RssFeeder.Infrastructure.csproj" />
+  <Project Path="RssFeeder.Testing/RssFeeder.Testing.csproj" Id="dcbc95c7-ed0e-46e3-9f8c-7936c00ccaf3" />
 </Solution>

@@ -161,5 +161,11 @@ namespace RssFeeder.Infrastructure.Repository
             }
             finally { _fileLock.Release(); }
         }
+
+        public async Task<int> GetRefreshTimeAsync()
+        {
+            var feedContainer = await GetFeedsAsync();
+            return feedContainer.RefreshTimeInSeconds;
+        }
     }
 }

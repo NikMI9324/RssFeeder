@@ -7,11 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="10.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.2" />
     <PackageReference Include="System.ServiceModel.Syndication" Version="10.0.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\RssFeeder.Domain\RssFeeder.Domain.csproj" />
+    <ProjectReference Include="..\RssFeeder.Infrastructure\RssFeeder.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
